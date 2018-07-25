@@ -1,0 +1,69 @@
+PODS:
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - Masonry (1.0.1)
+  - Reachability (3.2)
+  - WJCommon (1.5.1):
+    - WJCommon/Core (= 1.5.1)
+    - WJCommon/NetworkService (= 1.5.1)
+    - WJCommon/SwipeBack (= 1.5.1)
+    - WJCommon/UI (= 1.5.1)
+    - WJCommon/Utils (= 1.5.1)
+    - WJJSON
+    - WJLoggingAPI
+  - WJCommon/Core (1.5.1):
+    - WJJSON
+    - WJLoggingAPI
+  - WJCommon/NetworkService (1.5.1):
+    - Reachability (= 3.2)
+    - WJCommon/Core
+    - WJJSON
+    - WJLoggingAPI
+  - WJCommon/SwipeBack (1.5.1):
+    - WJJSON
+    - WJLoggingAPI
+  - WJCommon/UI (1.5.1):
+    - Masonry (= 1.0.1)
+    - WJCommon/Core
+    - WJCommon/SwipeBack
+    - WJCommon/Utils
+    - WJJSON
+    - WJLoggingAPI
+    - WJUIRoutable/API
+  - WJCommon/Utils (1.5.1):
+    - WJJSON
+    - WJLoggingAPI
+  - WJConfig (1.0)
+  - WJJSON (1.1)
+  - WJLoggingAPI (1.0)
+  - WJLoggingCocoaLumberjack (1.0.2):
+    - CocoaLumberjack (= 2.2.0)
+    - WJLoggingAPI
+  - WJUIRoutable/API (2.0):
+    - WJConfig
+
+DEPENDENCIES:
+  - Masonry (= 1.0.1)
+  - WJCommon
+  - WJLoggingCocoaLumberjack
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  WJCommon: f9251d51c4db40d6b1c1b4baa093a12c41ca0f7f
+  WJConfig: a907d4e3708d3906f14457ac1abe35a4a8d39dcb
+  WJJSON: 4175ff0a4954079afcf3f1ae0a27e32e9c022680
+  WJLoggingAPI: baf950e1a755c322cbb6dafbe57d17c629dad20f
+  WJLoggingCocoaLumberjack: b12edb7e122a363f52e9bd8f97e99e4560ac42ae
+  WJUIRoutable: 4612851f15d783b80c084476e06da0c54381df7e
+
+PODFILE CHECKSUM: b5b375ae5dbfe6e4ad81d389f7fc292a728625c9
+
+COCOAPODS: 1.2.0.beta.1

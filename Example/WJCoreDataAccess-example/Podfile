@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://gitlab.jucaicat.net/iOS-Framework/Specs.git'
+platform :ios, '7.0'
+
+
+target :'WJCoreDataAccess-example' do
+
+pod 'WJCommon'
+pod 'WJLoggingCocoaLumberjack'
+pod 'Masonry', '1.0.1'
+
+end

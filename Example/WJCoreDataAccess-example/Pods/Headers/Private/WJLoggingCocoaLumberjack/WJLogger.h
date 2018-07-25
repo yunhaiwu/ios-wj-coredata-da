@@ -1,0 +1,1 @@
+../../../WJLoggingCocoaLumberjack/Classes/WJLogger.h

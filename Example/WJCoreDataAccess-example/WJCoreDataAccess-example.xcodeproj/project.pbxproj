@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7453347CF5240A3475A910FA /* libPods-WJCoreDataAccess-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A15E76075B7E489C8A0124A7 /* libPods-WJCoreDataAccess-example.a */; };
+		C15D97911D83175500B3C3E1 /* UserCellContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15D97901D83175500B3C3E1 /* UserCellContentView.xib */; };
+		C15D97941D83C94200B3C3E1 /* WJCoreDataDA.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C15D97931D83C94200B3C3E1 /* WJCoreDataDA.podspec */; };
+		C1B9C9811D831298000E00F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B9C9801D831298000E00F0 /* main.m */; };
+		C1B9C9841D831298000E00F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B9C9831D831298000E00F0 /* AppDelegate.m */; };
+		C1B9C9871D831298000E00F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B9C9861D831298000E00F0 /* ViewController.m */; };
+		C1B9C98D1D831298000E00F0 /* WJCoreDataAccess_example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1B9C98B1D831298000E00F0 /* WJCoreDataAccess_example.xcdatamodeld */; };
+		C1B9C98F1D831298000E00F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B9C98E1D831298000E00F0 /* Assets.xcassets */; };
+		C1B9C9921D831298000E00F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B9C9901D831298000E00F0 /* LaunchScreen.storyboard */; };
+		C1B9C9A31D8312B3000E00F0 /* NSManagedObject+WJDA.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B9C99B1D8312B3000E00F0 /* NSManagedObject+WJDA.m */; };
+		C1B9C9A41D8312B3000E00F0 /* NSManagedObject+WJMappings.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B9C99D1D8312B3000E00F0 /* NSManagedObject+WJMappings.m */; };
+		C1B9C9A51D8312B3000E00F0 /* NSManagedObjectContext+WJDA.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B9C99F1D8312B3000E00F0 /* NSManagedObjectContext+WJDA.m */; };
+		C1B9C9A61D8312B3000E00F0 /* WJCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B9C9A21D8312B3000E00F0 /* WJCoreDataManager.m */; };
+		C1B9C9AC1D8313B1000E00F0 /* UserMO.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B9C9AA1D8313B1000E00F0 /* UserMO.m */; };
+		C1B9C9AF1D8315CF000E00F0 /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B9C9AE1D8315CF000E00F0 /* UserCell.m */; };
+		C1B9C9B21D8315F4000E00F0 /* UserCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B9C9B11D8315F4000E00F0 /* UserCellContentView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35ED21ACB3B5968C26AB5350 /* Pods-WJCoreDataAccess-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJCoreDataAccess-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJCoreDataAccess-example/Pods-WJCoreDataAccess-example.release.xcconfig"; sourceTree = "<group>"; };
+		A15E76075B7E489C8A0124A7 /* libPods-WJCoreDataAccess-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJCoreDataAccess-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1535258D8A0B09D63BDA49 /* Pods-WJCoreDataAccess-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJCoreDataAccess-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJCoreDataAccess-example/Pods-WJCoreDataAccess-example.debug.xcconfig"; sourceTree = "<group>"; };
+		C15D97901D83175500B3C3E1 /* UserCellContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCellContentView.xib; sourceTree = "<group>"; };
+		C15D97921D83186E00B3C3E1 /* IUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUser.h; sourceTree = "<group>"; };
+		C15D97931D83C94200B3C3E1 /* WJCoreDataDA.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WJCoreDataDA.podspec; path = ../../WJCoreDataDA.podspec; sourceTree = "<group>"; };
+		C1B9C97C1D831298000E00F0 /* WJCoreDataAccess-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WJCoreDataAccess-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B9C9801D831298000E00F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1B9C9821D831298000E00F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1B9C9831D831298000E00F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1B9C9851D831298000E00F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1B9C9861D831298000E00F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1B9C98C1D831298000E00F0 /* WJCoreDataAccess_example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WJCoreDataAccess_example.xcdatamodel; sourceTree = "<group>"; };
+		C1B9C98E1D831298000E00F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1B9C9911D831298000E00F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1B9C9931D831298000E00F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B9C99A1D8312B3000E00F0 /* NSManagedObject+WJDA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+WJDA.h"; sourceTree = "<group>"; };
+		C1B9C99B1D8312B3000E00F0 /* NSManagedObject+WJDA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+WJDA.m"; sourceTree = "<group>"; };
+		C1B9C99C1D8312B3000E00F0 /* NSManagedObject+WJMappings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+WJMappings.h"; sourceTree = "<group>"; };
+		C1B9C99D1D8312B3000E00F0 /* NSManagedObject+WJMappings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+WJMappings.m"; sourceTree = "<group>"; };
+		C1B9C99E1D8312B3000E00F0 /* NSManagedObjectContext+WJDA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+WJDA.h"; sourceTree = "<group>"; };
+		C1B9C99F1D8312B3000E00F0 /* NSManagedObjectContext+WJDA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+WJDA.m"; sourceTree = "<group>"; };
+		C1B9C9A01D8312B3000E00F0 /* WJCoreDataDA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCoreDataDA.h; sourceTree = "<group>"; };
+		C1B9C9A11D8312B3000E00F0 /* WJCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCoreDataManager.h; sourceTree = "<group>"; };
+		C1B9C9A21D8312B3000E00F0 /* WJCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCoreDataManager.m; sourceTree = "<group>"; };
+		C1B9C9A91D8313B1000E00F0 /* UserMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserMO.h; sourceTree = "<group>"; };
+		C1B9C9AA1D8313B1000E00F0 /* UserMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserMO.m; sourceTree = "<group>"; };
+		C1B9C9AD1D8315CF000E00F0 /* UserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCell.h; sourceTree = "<group>"; };
+		C1B9C9AE1D8315CF000E00F0 /* UserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCell.m; sourceTree = "<group>"; };
+		C1B9C9B01D8315F4000E00F0 /* UserCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCellContentView.h; sourceTree = "<group>"; };
+		C1B9C9B11D8315F4000E00F0 /* UserCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCellContentView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1B9C9791D831298000E00F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7453347CF5240A3475A910FA /* libPods-WJCoreDataAccess-example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		982BA9DE84F0F8E95CB92298 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A15E76075B7E489C8A0124A7 /* libPods-WJCoreDataAccess-example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A967955EF7810D9309ABE3E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC1535258D8A0B09D63BDA49 /* Pods-WJCoreDataAccess-example.debug.xcconfig */,
+				35ED21ACB3B5968C26AB5350 /* Pods-WJCoreDataAccess-example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1B9C9731D831298000E00F0 = {
+			isa = PBXGroup;
+			children = (
+				C15D97931D83C94200B3C3E1 /* WJCoreDataDA.podspec */,
+				C1B9C9991D8312B3000E00F0 /* Classes */,
+				C1B9C97E1D831298000E00F0 /* WJCoreDataAccess-example */,
+				C1B9C97D1D831298000E00F0 /* Products */,
+				A967955EF7810D9309ABE3E8 /* Pods */,
+				982BA9DE84F0F8E95CB92298 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1B9C97D1D831298000E00F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1B9C97C1D831298000E00F0 /* WJCoreDataAccess-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1B9C97E1D831298000E00F0 /* WJCoreDataAccess-example */ = {
+			isa = PBXGroup;
+			children = (
+				C1B9C9821D831298000E00F0 /* AppDelegate.h */,
+				C1B9C9831D831298000E00F0 /* AppDelegate.m */,
+				C1B9C9851D831298000E00F0 /* ViewController.h */,
+				C1B9C9861D831298000E00F0 /* ViewController.m */,
+				C1B9C9AD1D8315CF000E00F0 /* UserCell.h */,
+				C1B9C9AE1D8315CF000E00F0 /* UserCell.m */,
+				C1B9C9B01D8315F4000E00F0 /* UserCellContentView.h */,
+				C1B9C9B11D8315F4000E00F0 /* UserCellContentView.m */,
+				C15D97901D83175500B3C3E1 /* UserCellContentView.xib */,
+				C1B9C98E1D831298000E00F0 /* Assets.xcassets */,
+				C1B9C9901D831298000E00F0 /* LaunchScreen.storyboard */,
+				C1B9C9931D831298000E00F0 /* Info.plist */,
+				C1B9C98B1D831298000E00F0 /* WJCoreDataAccess_example.xcdatamodeld */,
+				C1B9C97F1D831298000E00F0 /* Supporting Files */,
+				C1B9C9A91D8313B1000E00F0 /* UserMO.h */,
+				C1B9C9AA1D8313B1000E00F0 /* UserMO.m */,
+				C15D97921D83186E00B3C3E1 /* IUser.h */,
+			);
+			path = "WJCoreDataAccess-example";
+			sourceTree = "<group>";
+		};
+		C1B9C97F1D831298000E00F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1B9C9801D831298000E00F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1B9C9991D8312B3000E00F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1B9C99A1D8312B3000E00F0 /* NSManagedObject+WJDA.h */,
+				C1B9C99B1D8312B3000E00F0 /* NSManagedObject+WJDA.m */,
+				C1B9C99C1D8312B3000E00F0 /* NSManagedObject+WJMappings.h */,
+				C1B9C99D1D8312B3000E00F0 /* NSManagedObject+WJMappings.m */,
+				C1B9C99E1D8312B3000E00F0 /* NSManagedObjectContext+WJDA.h */,
+				C1B9C99F1D8312B3000E00F0 /* NSManagedObjectContext+WJDA.m */,
+				C1B9C9A01D8312B3000E00F0 /* WJCoreDataDA.h */,
+				C1B9C9A11D8312B3000E00F0 /* WJCoreDataManager.h */,
+				C1B9C9A21D8312B3000E00F0 /* WJCoreDataManager.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1B9C97B1D831298000E00F0 /* WJCoreDataAccess-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B9C9961D831298000E00F0 /* Build configuration list for PBXNativeTarget "WJCoreDataAccess-example" */;
+			buildPhases = (
+				25B02537184917E3389A3F73 /* [CP] Check Pods Manifest.lock */,
+				C1B9C9781D831298000E00F0 /* Sources */,
+				C1B9C9791D831298000E00F0 /* Frameworks */,
+				C1B9C97A1D831298000E00F0 /* Resources */,
+				00E1FD9F600EA41A626F13AF /* [CP] Embed Pods Frameworks */,
+				9C1763213A03A68D1C05706A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WJCoreDataAccess-example";
+			productName = "WJCoreDataAccess-example";
+			productReference = C1B9C97C1D831298000E00F0 /* WJCoreDataAccess-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1B9C9741D831298000E00F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WJ;
+				TargetAttributes = {
+					C1B9C97B1D831298000E00F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C1B9C9771D831298000E00F0 /* Build configuration list for PBXProject "WJCoreDataAccess-example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1B9C9731D831298000E00F0;
+			productRefGroup = C1B9C97D1D831298000E00F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1B9C97B1D831298000E00F0 /* WJCoreDataAccess-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1B9C97A1D831298000E00F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15D97911D83175500B3C3E1 /* UserCellContentView.xib in Resources */,
+				C15D97941D83C94200B3C3E1 /* WJCoreDataDA.podspec in Resources */,
+				C1B9C9921D831298000E00F0 /* LaunchScreen.storyboard in Resources */,
+				C1B9C98F1D831298000E00F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E1FD9F600EA41A626F13AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJCoreDataAccess-example/Pods-WJCoreDataAccess-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25B02537184917E3389A3F73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C1763213A03A68D1C05706A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJCoreDataAccess-example/Pods-WJCoreDataAccess-example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1B9C9781D831298000E00F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B9C9AC1D8313B1000E00F0 /* UserMO.m in Sources */,
+				C1B9C9A51D8312B3000E00F0 /* NSManagedObjectContext+WJDA.m in Sources */,
+				C1B9C9871D831298000E00F0 /* ViewController.m in Sources */,
+				C1B9C9AF1D8315CF000E00F0 /* UserCell.m in Sources */,
+				C1B9C9841D831298000E00F0 /* AppDelegate.m in Sources */,
+				C1B9C9B21D8315F4000E00F0 /* UserCellContentView.m in Sources */,
+				C1B9C9A31D8312B3000E00F0 /* NSManagedObject+WJDA.m in Sources */,
+				C1B9C98D1D831298000E00F0 /* WJCoreDataAccess_example.xcdatamodeld in Sources */,
+				C1B9C9A61D8312B3000E00F0 /* WJCoreDataManager.m in Sources */,
+				C1B9C9811D831298000E00F0 /* main.m in Sources */,
+				C1B9C9A41D8312B3000E00F0 /* NSManagedObject+WJMappings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1B9C9901D831298000E00F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B9C9911D831298000E00F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1B9C9941D831298000E00F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1B9C9951D831298000E00F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1B9C9971D831298000E00F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1535258D8A0B09D63BDA49 /* Pods-WJCoreDataAccess-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WJCoreDataAccess-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WJ.WJCoreDataAccess-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1B9C9981D831298000E00F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35ED21ACB3B5968C26AB5350 /* Pods-WJCoreDataAccess-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WJCoreDataAccess-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WJ.WJCoreDataAccess-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1B9C9771D831298000E00F0 /* Build configuration list for PBXProject "WJCoreDataAccess-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B9C9941D831298000E00F0 /* Debug */,
+				C1B9C9951D831298000E00F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B9C9961D831298000E00F0 /* Build configuration list for PBXNativeTarget "WJCoreDataAccess-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B9C9971D831298000E00F0 /* Debug */,
+				C1B9C9981D831298000E00F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C1B9C98B1D831298000E00F0 /* WJCoreDataAccess_example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C1B9C98C1D831298000E00F0 /* WJCoreDataAccess_example.xcdatamodel */,
+			);
+			currentVersion = C1B9C98C1D831298000E00F0 /* WJCoreDataAccess_example.xcdatamodel */;
+			path = WJCoreDataAccess_example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C1B9C9741D831298000E00F0 /* Project object */;
+}
